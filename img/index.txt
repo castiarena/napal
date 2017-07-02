@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Napal</title>
+  <meta name="description" content="wiredwiki App">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Anton|Raleway" rel="stylesheet">
+
+
+</head>
+
+<style>
+
+body{
+  padding-top:40px;
+  font-family: 'Raleway', sans-serif;
+  }
+
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+  }
+
+#contenedor{
+    height: 100%;
+    width: 100%
+  }
+
+  .navbar {
+    font-size: 22px;
+  }
+
+.p-clases{
+  font-size: 16px;
+  text-align: justify;
+  background-color: #FFF6C5;
+
+
+
+}
+
+.p{
+  font-size: 16px;
+}
+
+
+.banner-header{
+  height:500px;
+  width:100%;
+  display:inline-block;
+  float: left;
+  background: url(img/banner-portada1500x500.png) #fff no-repeat center;
+  background-size: 70%;
+}
+</style>
+
+<body data-spy="scroll" data-target="#my-navbar">
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar"><!--el navbar-fixed-top me pega la navbar a la parte superior del sitio?-->
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span><!--Aca pongo la cantidad de spans rayitas que quiero que tenga el el boton de navbar-->
+        </button>
+
+        <a href="http:///www.napal.co"><img src="img/logo-03.png" border="0" height="105" width="120"></a> <!--class="navbar-brand"-->
+
+      </div><!--Navbar header-->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+        <a href="https://www.facebook.com/napalsounds/" class="btn btn-default navbar-btn navbar-right">Know me better!</a>
+          <ul class="nav navbar-nav" "navbar"><!--Aca van las sections-->
+            <li><a href="#video">Video</a>
+            <li><a href="#audio">Audio</a>
+            <li><a href="#photo">Photo</a>
+            <li><a href="#bio">Bio</a>
+            <li><a href="#blog">Blog</a>
+            <li><a href="#clases">Clases</a>
+            <li><a href="#feedback">Feedback</a>
+            <li><a href="#contact">ContactUs</a>
+          </ul>
+      </div>
+    </div><!--End of container-->>
+  </nav><!--End navbar-->
+
+<div class="banner-header">
+<!--este es el banner del header-->
+<span class="sr-only">NAPAL</span>
+</div>
+
+  <!--Jumbotron-->
+<div class="jumbotron">
+  <div class="container text-center">
+<h2>.</h2>
+
+    <div class="btn-group">
+
+      <a href="https://www.youtube.com/channel/UCF99JrpkeYg8Lv9jDHF_YPg"> <img alt="sigueme en mi red social" title="sigueme" src="img/logo-youtube.png" height="50" width="75" class="btn btn-lg btn-default"></a><!--si a la clase btn le pongo info en vez de warning se vuelve skyblue y si le pongo default se vuelve gris-->
+      <a href="https://soundcloud.com/napal-sounds"> <img alt="sigueme en mi red social" title="sigueme" src="img/logo-soundcloud.png" height="75" width="100" class="btn btn-lg btn-default"></a>
+      <a href="https://www.facebook.com/napalsounds/"> <img alt="sigueme en mi red social" title="sigueme" src="img/logo-facebook.png" height="75" width="100" class="btn btn-lg btn-default"></a>
+      <a href="https://twitter.com/napalsounds"> <img alt="sigueme en mi red social" title="sigueme" src="img/logo-twitter.png" height="75" width="100" class="btn btn-lg btn-default"></a>
+      <a href="https://www.instagram.com/napalsounds/"> <img alt="sigueme en mi red social" title="sigueme" src="img/logo-instagram.png" height="75" width="100" class="btn btn-lg btn-default"></a>
+      <a href="https://plus.google.com/107330718390201851795"> <img alt="sigueme en mi red social" title="sigueme" src="img/logo-google+.png" height="75" width="100" class="btn btn-lg btn-default"></a>
+
+    </div>
+
+  </div><!--End of container-->
+</div><!--End of jumbotron-->
+
+
+
+<!--Video-->
+
+<div class="container">
+  <section>
+    <div class="page-header" id="video">
+      <h2>Video.<small>Musical reel</small></h2>
+    </div>
+
+
+<iframe width="1150" height="525" src="https://www.youtube.com/embed/XLgELHI_zqw" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</section>
+</div>
+<!--End of video-->
+
+
+<!--Audio-->
+<!--soundcloud player-->
+<div class="container">
+  <section>
+<div class="container" id="audio">
+  <h2>Audio.<small></small></h2>
+</div>
+
+<iframe width="100%" height="266" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/324282960&amp;color=ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<iframe width="100%" height="266" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323880109&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</section>
+</div>
+
+<!--End of soundcloud player-->
+
+<!--Photo-->
+
+<div class="container">
+  <section>
+    <div class="page-header" id="photo">
+      <h2>Photo.<small></small></h2>
+    </div>
+
+    <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+
+
+      <ol class="carousel-indicators"><!--Aca la cantidad li como de imagenes que necesites usar-->
+        <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+        <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+        <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+      </ol>
+
+      <div class="carousel-inner"<!--aca se linkean las imagenes-->
+        <div class="item active">
+          <img src="img/sentado-cantando.jpg" alt="aca va la descripcion de la imagen">
+          <div class="carousel-caption">
+            <h3>NAPAL</h3>
+            <p>Es creatividad adaptada</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/sentado-costado-tocando.jpg" alt="aca va la descripcion de la imagen">
+          <div class="carousel-caption">
+            <h3>NAPAL </h3>
+            <p>Es entretener con calidad y presencia profesional</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/tocando-concara.jpg" alt="aca va la descripcion de la imagen">
+          <div class="carousel-caption">
+            <h3>NAPAL </h3>
+            <p>Es hacer del espacio una experiencia única y placentera</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/tocando-criolla.jpg" alt="aca va la descripcion de la imagen">
+          <div class="carousel-caption">
+            <h3>NAPAL </h3>
+            <p>Momentos que crean una atmósfera de calidez musical.</p>
+          </div>
+        </div>
+
+      </div> <!--End of carousel inner-->
+      <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"</span></a>
+
+      <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"</span></a>
+    </div> <!--End of Photo-->
+  </section>
+</div>
+
+<!--Bio-->
+
+<div class="container">
+  <section>
+    <div class="page-header" id="bio">
+      <h2>Bio.<small></small></h2>
+    </div><!--End page header-->
+
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion"></a>
+            Bio corta
+          </div><!--End panel title-->
+          <div id="collapse-1" class="panelle-collapse collapse in">
+            <div class="panel-body">
+              <div class="col-sm-6">
+                <p class="p" style="text-align:justify">NAPAL es un cantautor e intérprete nacido en Argentina, de familia con raíces originarias de su país, pero también vascas y belgas. Actualmente vive en Buenos Aires, Argentina, en el corazón de Sudamérica pero trabaja por todo el mundo. <br><br>Su carrera empezó pronto como guitarrista, lo que lo llevó directamente a la música latinoamericana en toda su expresión pero también se interesó por el jazz, la bossanova y la música electrónica. En su proyecto, busca incluir fuentes de muy distinta naturaleza, en particular la debilidad por las historias y el impulso por plasmar las emociones en canciones, los paisajes de su inconsciente, con sus culturas, rituales y ritmos. <br><br>Por esto su música irradia una comprensión íntima de la naturaleza humana, desde la impronta de su sonido a la suave consonancia de sus canciones. En esta mezcla siempre prevalece un delicado balance entre fuerzas: su música es profundamente armónica pero sin descuidar la melodía ni el ritmo, y a pesar de dejarse influir por artistas de diferentes tiempos y espacios, nunca deja de ser íntima.<br>
+              <br><br>De esta conexión, entre tradicional y moderno, entre sudamericano e internacional surge NAPAL, que comparte la búsqueda de hacer música con la fusión de un componente netamente humano, con consciencia.
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <img src="img/foto-bio.jpg" alt="" width="500">
+            </div>
+            </div>
+          </div>
+        </div><!--end panel collapse-->
+      </div>
+
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+            Bio larga
+            </a>
+          </div><!--End panel title-->
+          <div id="collapse-2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="col-sm-6">
+                <p class="p" style="text-align:justify">
+                  Estudió en el conservatorio de música clásica José Hernandez y Juan José Castro y estudió en la escuela de música popular SADEM del
+                  Sindicato Argentino de Músicos. También realizó sus estudios en la Tecnicatura de Música Popular de la Facultad de Bellas Artes de la
+                  Universidad de la Plata. <br><br>Estudió con profesores: Alejandro Morandini, Tito Gallardo, Juan Benitez, Juan Carlos Botto.<br><br>
+                  Estudió y aprendió con alumnos.Estudió solo y acompañado, estudió, ensayó, practicó y aprendió.<br><br>
+                  Conoció canciones de otros.
+                  <br><br>
+                  Conoció canciones que venían desde su interior
+                  <br><br>
+                  Las tocó en la guitarra.
+                  <br><br>
+                  Las cantó solo y acompañado.
+                  <br><br>
+                  Las canta hoy.
+                  <br><br>
+                  Creció en una casa donde se fomentaba la creatividad y el arte. Músico desde la infancia se relacionó con los sonidos, con los instrumentos y las canciones.<br>
+                  Su proceso creativo pasó a imprimirse en la música de muchas maneras, desde el canto y la guitarra hasta los instrumentos de viento como la quena y la flauta traversa.<br>
+                  Su misión es la de compartir la idea que todos podemos vivir en armonía y que el arte es el medio para lograrlo. <br>
+                  Quiere conocer el mundo y a la gente que vive en él. Y cantarles. Y contarles sus historias.<br><br>
+                  En la actualidad protagonizo NAPAL, un proyecto ecléctico que evoca las distintas emociones que generan los estilos de música de todos los tiempos.<br>
+                  Recorre el camino de la bossa y el jazz así como también el bolero y la música latinoamericana.<br><br>
+                  Participo en la banda  Peces del Aire donde soy flautista y cantante.<br><br>
+                  Anterior a esto participé como front-man de La Suerte de Ozu, una banda que fusiona la música latinoamericana, rioplatense con el jazz y la música funk, la formamos junto a amigos donde compuse letra y música de la mayoría de las canciones.<br><br>
+                  Fuí guitarrista de la banda de reggae-rock Hecho en Casa  con la que nos fuimos de gira a Paraguay.<br><br>
+                  Además junto a Darío Berocovich creamos Bakground Sounds, dúo de clarinete y guitarra con el que tocábamos en restaurantes y lobbys de hotel.<br><br>
+                  Asimismo con el Dúo Napal-Sanabria realizamos presentaciones en distintos salones y quintas de fiestas así como restaurantes y teatros.<br><br>
+                  También con Karin Rechimuzzi realizamos un tour por la provincia de Santiago del Estero.<br><br>
+                  Estuve en uno de los episodios de proyecto 48 de la cadena TNT junto a la orquesta del Conservatorio de música José Hernandez.<br><br>
+                  Fuí ayudante de la profesora Francisca "Pepa" Pascal.<br><br>
+                </p>
+                </div>
+
+                <div class="col-sm-6">
+                  <img src="img/foto-bio01.jpg" alt="" width="500">
+                </div>
+
+          </div>
+        </div><!--end panel collapse-->
+      </div>
+    </div>
+  </div><!--end panel group-->
+</div>
+
+
+
+  </section>
+</div><!--end container-->
+
+
+
+<!--End of Bio-->
+
+<!--Blog-->
+
+<div class="container">
+  <section>
+
+    <div class="page-header" id="blog">
+      <h2>Blog.<small>Bienvenidos a mi blog personal. </small></h2>
+    </div><!--End page header-->
+
+    <div class="row">
+
+      <div class="col-sm-6">
+        <h1><big>Un dia de estudio</big></h1>
+        <p class="p" style="text-align:justify">Muchas veces terminamos <big><b><em>viviendo experiencias</em></b></big> que nos vamos a acordar para siempre sin siquiera haber imaginado que iban a suceder. <br><br>El día que grabé en Melopea por ejemplo, <b>el estudio de grabación de Lito Nebia</b>. No fue un día como cualquier otro.<br>
+          <br>
+Recibí un llamado de mi amigo, alumno y colega Eduardo, Edu lo sigue a Lito desde hace muchos años, e inevitablemente han generado un vínculo digamos, de amistad. <br><br>Atiendo y del otro lado escucho:<br><br>-:”¿Que tenes para hacer el Viernes?. Conseguí grabar unas canciones en Melopea”.<br><br>
+Por otro lado Edu toma <b>clases de guitarra y canto</b> hace ya 3 años y hemos compartido varios escenarios y por eso conoce un poco de mi recorrido en la música. Sabe que hago canciones desde siempre y que eso es <big><b>lo que me hace feliz en la vida.</b></big>
+Hacia el final del llamado ya me había contado que en uno de los shows de Lito había comentado que estaba cantando con un muchacho que lo acompañaba en la guitarra y que como respuesta había recibido un:- “arreglá con Mario y te grabas unas canciones”.
+<br><br>Una vez pactada la agenda llegó el día.<br><br>
+Villa Urquiza, Capital Federal, Buenos Aires, Argentina. Al cruzar la puerta me encontré con la antesala de lo que a primera vista me hizo sentir que estaba en un <b>museo de la música</b>. Tapas de discos, recortes de revistas, dos máquinas de esas con las que se grababa en cinta y se editaba cortando con tijera y pegando. Mas tapas de discos. Un lugar donde se respira el <big><b>fruto que dá la constancia y la confianza de dedicarse a lo que uno ama.</b></big>
+<br><br>Nos recibió Mario, el ingeniero de sonido. Mejor dicho, <b><big>"EL"</big> ingeniero de sonido.</b> Entre charlas y anécdotas pasamos al control room y además de la increible y llamativa mesa de mezcla setentosa, nos recibió un felino, sentado en el sillón muy a lo productor ejecutivo. <br><br>Mientras Mario preparaba y dejaba todo listo para la grabación nos contaba que lo acompaña a Lito desde siempre y que además en ese estudio grabaron "todos". Entré a la sala con una <b>mezcla de emoción, adrenalina</b> y ni hablar de la presión que sentís al pisar el piso de un lugar que inmortalizó las penas y alegrías de tantos artistas. En fin, una grata e inolvidable experiencia Les dejo el trabajo de ese día que no me voy a olvidar, <b>el día que grabé en Melopea.</b></p>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/324606384&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></div>
+<hr>
+      <div class="col-sm-6">
+        <img src="img/blogmelopea-02.jpg" class="img-responsive" alt="esta es una imagen" width="500"><hr>
+        <img src="img/blogmelopea-01.jpg" class="img-responsive" alt="esta es una imagen" width="300"><hr>
+        <img src="img/blogmelopea.jpg" class="img-responsive" alt="esta es una imagen" width="300">
+      </div>
+
+    </div><!--End row-->
+<hr>
+    <div class="row">
+
+      <div class="col-sm-4">
+        <img src="img/banner-blogrepertorio.png" class="img-responsive" alt="esta es una imagen"  width="250">
+      </div>
+
+      <div class="col-sm-8">
+        <h1><big>Organizar el repertorio</big></h1>
+        <p class="p" style="text-align:justify">Quienes estamos <em><big><b>inmersos en el mundo de la música</b></big></em> nos enfrentamos a muchos y distintos desafíos permanentemente. Uno de ello es como armar una <b>carpeta de repertorio</b> (y no morir en el intento).<br><br>
+Para esto les presento varias herramientas y consejos que en mi experiencia propia han sido de gran ayuda para organizar el repertorio.
+En primer lugar reconocer que es mejor tener la <b>dedicación y constancia</b> para aprenderse las canciones de memoria, tanto la armonía como la melodía. Pero también darse cuenta que cuando es necesario preparar varias canciones para un show es importante tener una carpeta de repertorio que contenga tanto la letra como la armonía de las canciones a presentar.<br><br>
+
+La finalidad de esta molestia que nos tomamos quienes cantamos muchas canciones seguidas tiene que ver con <b>poder leer con claridad y a cierta distancia</b> la parte de la letra que no recordemos. Sin perdernos y de manera rápida y efectiva.
+Muchas veces tocamos en lugares con poca luz o resulta que cuando practicamos la canción en casa la impresión con letra tamaño 12 nos parecía accesible a la vista y cuando llegó la hora de leerlo en el escenario nos parece realmente complicado llegar a ver con facilidad y no perderse.
+<br><br><b>Una buena herramienta</b> para trabajar sobre nuestras canciones y que además es online es el <big><b>Googledocs</b></big>, el procesador de texto de google que, además de estar equipado con todas las funciones que podamos llegar a necesitar, viene con la posibilidad de instalar plugins que suman a su <b>óptimo rendimiento.</b>
+Una de las mayores ventajas, tiene que ver con la constante precaución que toma la app de google por nosotros de guardar los documentos de <b>manera automática</b> cada pocos segundos y permanentemente. De esta manera cualquier imprevisto mientras estamos trabajando va a ser solucionado por nuestro precavido amigo el googledocs.
+<br><br>Es importante además, a la hora de velar por la capacidad para ver, separar cada estrofa con saltos de línea y si es es necesario por su cantidad, enumerarlas. Por último, me sirve en lo personal, <b>separar la hoja de trabajo en dos columnas</b> para saber cuando se vuelve a repetir la estructura.
+
+<br><br>Otra herramienta que me resultó <b>asombrosa</b> es la app <b>IREAL PRO de Hand in NYC - by Musicians, for Musicians.</b> Desde su slogan “Practice Makes Perfect” que además de cierto es muy motivador, pasando por sus muchas opciones relacionadas a los cifrados, hasta su manejo más que amigable. La app viene en dos versiones gratuita y de pago. Es una app por la cual recomiendo invertir ya que las prestaciones que dá esta última opción son por demás útiles. La app está más que nada concentrada en el “play-along” proveyendo una <b>banda de sonido real para acompañar la práctica</b>, sea tanto improvisativa o la práctica de canciones en sí. Los sonidos de acompañamiento, si uno tiene la posibilidad de amplificarlos, se escuchan realmente bien. <br><br>Pero lo más <b>novedoso y útil</b> de esta app es la posibilidad de <b><big>escribir cifrados de acordes</big></b>. Es un poderoso procesador de texto orientado a la escritura de cifrado. Herramienta que no estaba inventada hasta el momento, salvo por los engorrosos métodos del ya conocido Finale. Con <big><b>IREAL PRO</b></big> vamos a poder <b>escribir nuestra canciones</b> con signos de repetición, cambiar métricas y estilos de reproducción. Tiene un excelente diccionario de acordes y la velocidad con la que uno puede llegar a escribir un cifrado es única. Por si era poco, <b>existe un foro</b> muy nutrido con <b>colaboradores de todo el mundo</b> que escriben y suben listas de cifrados. En conclusión es una herramienta única y nunca antes vista que nos soluciona la vida a los <b>amantes de las canciones</b>.
+</p>
+</div>
+  <div class="col-sm-12">
+<a href="https://docs.google.com/document/d/13FuBxlK9C7_w1Ns233JjsY2mb-n3_SrlU9RrDmfxK6A/edit?usp=sharing"><img id="contenedor" src="img/ejemplo-ireal.png" border="0"></a>
+      </div>
+
+    </div><!--End row-->
+
+
+
+    <hr>
+
+    <!--Clases-->
+    <div class="container">
+      <section>
+        <div class="page-header" id="clases">
+          <h2>Clases.<small>Check out the clases</small></h2>
+        </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="panel panel-default text-center">
+          <div class="panel-body">
+            <span class="glyphicon glyphicon-book"></span>
+            <!--<h1><big><strong>Clases</strong></big></h1>-->
+            <p class="p-clases">La música <b>es un juego</b> en el que se representa un fragmento de la vida con la intención de entretener, divertir o enseñar. <br><br>Es como un espejo donde las personas pueden verse reflejadas con sus vicios y virtudes.
+              La <b>música,</b> como cualquier otro arte, tiene sus propios medios de expresión: el gesto, los movimientos, la intencionalidad con la que se ejecuta. <br><br> A través de ellos el músico <b>transfiere su situación anímica al espectador que, de esta forma, participa en el desarrollo de la acción.</b> Esto implica la consideración por el otro, la conciencia de otro, lo que pone de manifiesto la importancia de <b>la música en la comunidad como un catalizador de la inserción y aceptación social.</b> </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="panel panel-default text-center">
+          <div class="panel-body">
+            <span class="glyphicon glyphicon-music"></span>
+            <!--<h1><big><strong>de</strong></big></h1>-->
+
+            <img src="img/tocando.jpg" width="300" height="500"alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="panel panel-default text-center">
+          <div class="panel-body">
+            <span class="glyphicon glyphicon-book"></span></span>
+            <!--<h1><big><strong>guitarra</strong></big></h1>-->
+            <p><ul class="p-clases">
+              <li>No es necesario tener conocimientos previos!</li><br>
+              <li>Los contenidos de las clases se adaptan a las necesidades y <b>preferencias musicales de cada alumno.</b></li><br>
+              <li>Hay un programa que funciona como guía y material de estudio separado en <b>3 niveles.</b></li><br>
+              <li>Para las clases no es imprescindible traer una guitarra, pero sí es necesario tener una en casa para poder <b>practicar</b> entre clase y clase.</li><br>
+              <li>Asesoramiento online, clases por streaming</li>
+            </ul>
+          </p>
+          </div>
+        </div>
+      </div>
+   </div><!--end row-->
+      </section>
+</div><!--End of container-->
+<!--End of Clases-->
+
+<!--call to action-->
+
+<section>
+  <div class="well">
+    <div class="container text-center">
+      <h3>Subscribe for more free stuff</h3>
+      <p>Enter your name and email</p>
+
+      <form action="index.html" class="form-inline"  method="">
+
+        <div class="form-group"><!--estos son los divs que contienen los inputs del formulario, cuantos mas agregue mas datos voy a poder solicitar-->
+          <label for="subscription">Subscribe</label>
+          <input type="text" class="form-control" id="subscription" placeholder="Your name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="text" class="form-control" id="email" placeholder="Enter your Email">
+        </div>
+
+        <button type="submit" class="btn btn-default">Subscribe</button>
+        <hr>
+
+      </form>
+    </div><!--End of container-->
+
+  </div><!--End well-->
+</section><!--End of call to action-->
+
+<!--Feedback-->
+
+<div class="container">
+  <section>
+    <div class="page-header" id="feedback">
+      <h2>Feedback.<small>Check out the awsome feedback</small></h2>
+    </div>
+
+    <div class="row"><!--Aca va a hacer la cantidad de columnas que necesite si vas probando de cambiarle los numeros te da distintos resultados en base a las columnas-->
+      <div class="col-md-4">
+        <blockquote
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id metus nibh. </p>
+          <footer></footer>
+        </blockquote>
+      </div>
+      <div class="col-md-4">
+        <blockquote
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id metus nibh. </p>
+          <footer>Autor</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-4">
+        <blockquote
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id metus nibh. </p>
+          <footer>Autor</footer>
+        </blockquote>
+      </div>
+    </div> <!--End of row-->
+  </section>
+</div> <!--End of container-->
+
+
+
+
+<!--contact-->
+
+<div class="container">
+  <section>
+    <div class="page-header" id="contact">
+      <h2>Contact us.<small>Contact us for more</small></h2>
+    </div><!--End page header-->
+
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Send us a message, or contact from the address below</p>
+
+        <address>
+          <strong>Napal Pvt-ltd</strong></br>
+          info@napal.co</br>
+          +54 9 11 6998 5281</br>
+        </address>
+      </div>
+
+      <div class="col-lg-8">
+        <form class="form-horizontal" action="" method="post">
+          <div class="form-group">
+          <label for="user-name" class="col-lg-2 control-label">Name</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+            </div>
+          </div><!--end form group-->
+
+          <div class="form-group">
+          <label for="user-email" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="user-email" placeholder="Enter your email address">
+            </div>
+          </div><!--end form group-->
+
+          <div class="form-group">
+          <label for="user-subject" class="col-lg-2 control-label">Subject</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="user-subject" placeholder="Enter the subject">
+            </div>
+          </div><!--end form group-->
+
+          <div class="form-group">
+          <label for="user-message" class="col-lg-2 control-label">AnyMessage</label>
+            <div class="col-lg-10">
+              <textarea name="user-message" rows="8" cols="80" placeholder="Enter your Message"></textarea>
+            </div>
+          </div><!--end form group-->
+
+          <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+              <button type="submit" class="btn btn-primary" name="button">Submit</button>
+            </div>
+          </div>
+
+        </form>
+       </div>
+      </div>
+    </div><!--end row-->
+  </section>
+</div>
+
+<!--Footer-->
+<footer>
+<hr>
+  <div class="container text-center">
+    <h3>Subscribe for more free stuff</h3>
+    <p>Enter your name and email</p>
+
+    <form action="index.html" class="form-inline"  method="">
+
+      <div class="form-group"><!--estos son los divs que contienen los inputs del formulario, cuantos mas agregue mas datos voy a poder solicitar-->
+        <label for="subscription">Subscribe</label>
+        <input type="text" class="form-control" id="subscription" placeholder="Your name" name="" value="">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="text" class="form-control" id="email" placeholder="Enter your Email" name="" value="">
+      </div>
+
+      <button type="submit" class="btn btn-default">Subscribe</button>
+      <hr>
+      <ul class="list-inline">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Youtube</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Soundcloud</a></li>
+      </ul>
+
+<p>&copy; Copyright @ 2017 </p>
+    </form>
+  </div><!--End of container-->
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>﻿
+
+  <!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
