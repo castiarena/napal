@@ -410,36 +410,51 @@ info@napal.co<br />
 </div>
 
 <div class="col-lg-8">
-<form action="" class="form-horizontal" method="post">
-<div class="form-group"><label class="col-lg-2 control-label" for="user-name">Nombre</label>
 
-<div class="col-lg-10"><input class="form-control" id="user-name" placeholder="Ingrese su nombre" type="text" /></div>
+	<form action="server/contact.php" class="form-horizontal" method="post">
+		<div class="form-group">
+			<label class="col-lg-2 control-label" for="user-name">Nombre</label>
+
+			<div class="col-lg-10">
+				<input class="form-control" id="user-name" name="user-name" placeholder="Ingrese su nombre" type="text" required/>
+			</div>
+		</div>
+		<!--end form group-->
+
+		<div class="form-group">
+			<label class="col-lg-2 control-label" for="user-email">Email</label>
+
+			<div class="col-lg-10">
+				<input class="form-control" id="user-email" name="user-email" placeholder="Ingrese su dirección de email" type="email" required/>
+			</div>
+		</div>
+		<!--end form group-->
+
+		<div class="form-group">
+			<label class="col-lg-2 control-label" for="user-subject">Asunto</label>
+
+			<div class="col-lg-10">
+				<input class="form-control" id="user-subject" name="user-subject" placeholder="Ingrese su asunto" type="text" required/>
+			</div>
+		</div>
+		<!--end form group-->
+
+		<div class="form-group">
+			<label class="col-lg-2 control-label" for="user-message">Mensaje</label>
+			<div class="col-lg-10">
+				<textarea cols="80" name="user-message" placeholder="Ingrese su mensaje" rows="8" required></textarea>
+			</div>
+		</div>
+		<!--end form group-->
+
+		<div class="form-group">
+			<div class="col-lg-10 col-lg-offset-2">
+				<button class="btn btn-primary" type="submit">Enviar</button>
+			</div>
+		</div>
+	</form>
 </div>
-<!--end form group-->
 
-<div class="form-group"><label class="col-lg-2 control-label" for="user-email">Email</label>
-
-<div class="col-lg-10"><input class="form-control" id="user-email" placeholder="Ingrese su dirección de email" type="text" /></div>
-</div>
-<!--end form group-->
-
-<div class="form-group"><label class="col-lg-2 control-label" for="user-subject">Asunto</label>
-
-<div class="col-lg-10"><input class="form-control" id="user-subject" placeholder="Ingrese su asunto" type="text" /></div>
-</div>
-<!--end form group-->
-
-<div class="form-group"><label class="col-lg-2 control-label" for="user-message">Mensaje</label>
-
-<div class="col-lg-10"><textarea cols="80" name="user-message" placeholder="Ingrese su mensaje" rows="8"></textarea></div>
-</div>
-<!--end form group-->
-
-<div class="form-group">
-<div class="col-lg-10 col-lg-offset-2"><button class="btn btn-primary" name="button" type="submit">Enviar</button></div>
-</div>
-</form>
-</div>
 </div>
 </section>
 </div>
